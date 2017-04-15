@@ -2,10 +2,10 @@
   "name": "mirror",
   "version": "0.0.1",
   "scripts": {
-  	"start": "nodejs app.js"
+    "start": "nodejs app.js"
   },
   "dependencies": {
-  	"express": "latest",
-    	"socket.io": "latest"
+    "express": "latest",
+    "socket.io": "latest"
   }
 }

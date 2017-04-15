@@ -1,173 +1,173 @@
 
 /*
-	General
+    General
 */
 
 body {
-	background-color: #000000;
-	padding: 0;
-	margin: 0;
-	color: #ffffff;
-	font-family: 'Open-Light';
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Open-Light';
 }
 
 @font-face {
-	font-family: 'Open-Light';
-	src: url('../font/OpenSans-Light.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Open-Light';
+    src: url('../font/OpenSans-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Weather';
-	src: url('../font/weather.ttf') format('truetype');
+    font-family: 'Weather';
+    src: url('../font/weather.ttf') format('truetype');
 }
 
 /* 
-	Main
+    Main
 */
 
 p {
-	margin-top: -20px;
-	font-size: 1em;
+    margin-top: -20px;
+    font-size: 1em;
 }
 
 .row {
-	height: 50%;
-	width: 100%;	
+    height: 50%;
+    width: 100%;    
 }
 
 .app-block {
-	height: 100%;
-	width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 /*
-	Time and date
+    Time and date
 */
 
 #top-right {
-	position: relative;
-	text-align: right;
-	width: 50%;
-	height: 100%;
+    position: relative;
+    text-align: right;
+    width: 50%;
+    height: 100%;
 }
 #time {
-	font-size: 8em;
+    font-size: 8em;
 }
 #date, #day {
-	font-size: 2em;
+    font-size: 2em;
 }
 
 /*
-	Weather
+    Weather
 */
 
 #top-left {
-	margin-top: -20px;
-	width: 50%;
-	height: 100%;
+    margin-top: -20px;
+    width: 50%;
+    height: 100%;
 }
 #current-weather {
-	font-size: 8em;
+    font-size: 8em;
 }
 #current-weather, #weather-icon {
-	display:inline;
+    display:inline;
 }
 #weather-icon {
-	margin: auto;
-	font-size: 1.5em;
+    margin: auto;
+    font-size: 1.5em;
 }
 
 .weatherDescription {
-	font-size: 0.25em;
-	color: #f2f2f2;
-	padding-left: 10px;
+    font-size: 0.25em;
+    color: #f2f2f2;
+    padding-left: 10px;
 }
 
 /* Forecast */
 
 #forecast {
-	font-size: 1.5em;
+    font-size: 1.5em;
 }
 .td-day {
-	width: 40px;
-	text-align: right;
+    width: 40px;
+    text-align: right;
 }
 .td-icon {
-	text-align: right;
-	font-size: 1.2em;
-	width: 40px;
-	height: 10px;
+    text-align: right;
+    font-size: 1.2em;
+    width: 40px;
+    height: 10px;
 }
 .td-low-high {
-	text-align: right;
-	font-size: 0.9em;
-	width: 85px;
+    text-align: right;
+    font-size: 0.9em;
+    width: 85px;
 }
 
 /*
-	Media/YouTube
+    Media/YouTube
 */
 
 #bottom-left {
-	position: relative;
-	text-align: left;
-	width: 50%;
-	height: 100%;
+    position: relative;
+    text-align: left;
+    width: 50%;
+    height: 100%;
 }
 #media-block {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	font-size: 1.2em;
-	text-align: left;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 1.2em;
+    text-align: left;
 }
 #media-block li {
-	width: 600px;
-	padding: 0px;
-	margin-left: -15px;
-	overflow: hidden;
+    width: 600px;
+    padding: 0px;
+    margin-left: -15px;
+    overflow: hidden;
 }
 #yt-frame {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 /*
-	RSS
+    RSS
 */
 
 #bottom-right {
-	position: relative;
-	text-align: right;
-	width: 50%;
-	height: 100%;
+    position: relative;
+    text-align: right;
+    width: 50%;
+    height: 100%;
 }
 #news-block {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	font-size: 1em;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 1em;
 }
 
 #rss-feed {
-	list-style-type: none;
-	text-align: left;	
-	font-size: 1.2em;
+    list-style-type: none;
+    text-align: left;   
+    font-size: 1.2em;
 }
 #rss-feed li {
-	width: 100%;
-	padding: 0px;
-	overflow: hidden;
+    width: 100%;
+    padding: 0px;
+    overflow: hidden;
 }
 #rss-feed div {
-	font-size: 0.8em;
-	color: #f0f0f0;
+    font-size: 0.8em;
+    color: #f0f0f0;
 }
 
 /*
-	Weather icons
+    Weather icons
 */
 
 @font-face {

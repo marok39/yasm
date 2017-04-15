@@ -1,39 +1,39 @@
 
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-	<title>YASM remote</title>
-	
-	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="css/style-remote.css" rel="stylesheet" type="text/css">
-	
-	<script src="/socket.io/socket.io.js"></script>
-	<script src="js/libs/jquery-2.2.4.min.js"></script>
-	<script src="js/libs/annyang.min.js"></script>
-	<script src="js/remote.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>YASM remote</title>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style-remote.css" rel="stylesheet" type="text/css">
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/libs/jquery-2.2.4.min.js"></script>
+    <script src="js/libs/annyang.min.js"></script>
+    <script src="js/remote.js"></script>
 </head>
 
 <body>
-	<div id="welcome"><p>Hello.</p></div>
-	<div id="app-block" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-		<div id="commands">
-			<p>Commands</p>
-			
-			<p class="command">- <span id="show">Show</span>/<span id="hide">hide</span> <span id="show-hide">_________</span></p>
-			<p class="description">Weather, time, YouTube, news, description (of displayed news) or all</p>
+    <div id="welcome"><p>Hello.</p></div>
+    <div id="app-block" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div id="commands">
+            <p>Commands</p>
+            
+            <p class="command">- <span id="show">Show</span>/<span id="hide">hide</span> <span id="show-hide">_________</span></p>
+            <p class="description">Weather, time, YouTube, news, description (of displayed news) or all</p>
 
-			<p class="command">- YouTube <span id="search">search</span>/<span id="play">play</span> <span id="yt">_________</span></p>
-			<p class="description">Search - returns search results for given input</p>
-			<p class="description">Play - select the number you wish to play</p>
+            <p class="command">- YouTube <span id="search">search</span>/<span id="play">play</span> <span id="yt">_________</span></p>
+            <p class="description">Search - returns search results for given input</p>
+            <p class="description">Play - select the number you wish to play</p>
 
-			<p class="command">- Play <span id="play-query">_________</span></p>
-			<p class="description">Plays most relevant YouTube video for given input</p>
+            <p class="command">- Play <span id="play-query">_________</span></p>
+            <p class="description">Plays most relevant YouTube video for given input</p>
 
-			<p class="command">- <span id="stop">Stop</span></p>
-			<p class="description">Stops video playback and returns to search results</p>
+            <p class="command">- <span id="stop">Stop</span></p>
+            <p class="description">Stops video playback and returns to search results</p>
 
-			<p id="error"></p>
-		</div>
-	</div>
+            <p id="error"></p>
+        </div>
+    </div>
 </body>
 </html>

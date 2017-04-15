@@ -1,35 +1,35 @@
 
 /*
-	General
+    General
 */
 
 body {
-	background-color: #000000;
-	padding: 0;
-	margin: 0;
-	color: #ffffff;
-	font-family: 'Open-Light';
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Open-Light';
 }
 
 p {
-	font-size: 1.5em;
-	text-align: center;
-	vertical-align: middle;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
 }
 
 @font-face {
-	font-family: 'Open-Light';
-	src: url('../font/OpenSans-Light.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Open-Light';
+    src: url('../font/OpenSans-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*
-	Main block
+    Main block
 */
 
 #app-block {
-	position: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -37,8 +37,8 @@ p {
 
 /* Welcome screen */
 #welcome {
-	font-size: 4em;
-	position: absolute;
+    font-size: 4em;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -46,16 +46,16 @@ p {
 
 /* Main screen */
 .command {
-	font-size: 2em;
+    font-size: 2em;
 }
 .description {
-	margin-top: -15px;
-	font-size: 1.1em;	
-	color: #e6e6e6;
+    margin-top: -15px;
+    font-size: 1.1em;   
+    color: #e6e6e6;
 }
 .input {
-	color: #7fff7f;
+    color: #7fff7f;
 }
 #error {
-	color: #BB0000; /* YouTube red */
+    color: #BB0000; /* YouTube red */
 }
